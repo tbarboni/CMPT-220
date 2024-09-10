@@ -1,0 +1,67 @@
+CMPT220L Lab 1 -- Algorithms
+
+NAME: Tristan Barboni
+PARTNER'S NAME: Jankarlo Villanueva
+
+----------------------------------------------------
+2 Executing Algorithms
+----------------------------------------------------
+
+2.2.1. Which steps perform input?
+        4
+2.2.2. Which steps perform output?
+        9,10
+2.2.3. Which steps modify the value of a variable?
+        5,6,7,10
+2.2.4. Which steps involve a mathematical operation?
+        10
+2.2.5. Which steps perform iteration? 
+        7,9
+2.2.6. This algorithm contains a "bug": a logical error that results in
+incorrect output.  Where is the problem?  How can it be fixed?
+        Step 7 does not allow the triangle to reach the height labled in the height variable.
+        To fix this you must change step 7 to repeat while the row variable is less than or equal to height.
+
+----------------------------------------------------
+3 Creating Algorithms
+----------------------------------------------------
+
+3.1.1. Algorithm
+    1) Draw a straight horizontal line 2 inches long. 
+    2) Starting from where the last line ended draw a vertical line 2 inches down
+    3) Starting from where the last line ended draw a horizontal line 2 inches left
+	(This line should end 2 inches below where you originally started)
+    4) Connect the end of the last line drawn with the starting point of the first one.
+	(Each line should be of equal length.)
+3.1.5. What was incorrect or imprecise about your algorithm? 
+    I didn't specify which direction to draw the first horizontal line. I also gave no tools/guidance on how to draw an accurate 2" line.
+3.2.1. Algorithm
+    1) Create a variable with the name "base"
+    2) Create a variable with the name "height"
+    3) Ask your partner for the values of each variable
+    4) starting at the first row mark the left most box with an x
+    5) Continue marking the box to the right of the last box marked until the amount of boxes marked is equal to the base.
+    6) Now starting back at the left most box of the first row, begin marking the boxes below until the total amount of marked boxes in column 1 is equal to the value of height
+    7) Now starting from the lowest marked box, move you pencil to one box up and to the right
+	    mark box with an x and repeat until you reach row one
+
+3.2.5. What was incorrect or imprecise about your algorithm? 
+    The resulting triangle is either not an accurate/complete right triangle, or it has a base 1 unit longer than specified.
+3.3.1. Algorithm
+    1) Create three variables titled width, and height
+    2) Ask your partner for the values of width and height 
+    3) Create a third value titled perim
+    4) Complete the operation (length + width) * 2 and assign the result to perim
+3.3.5. What was incorrect or imprecise about your algorithm? 
+        Algorithm worked as intended
+3.4.1. Algorithm
+    1) Create a variable named "l" 
+    2) Create a variable named "r"
+    3) Create a variable named A, AS, AT, and AC
+    3) Ask your partner for the values of the variables for l and r (They should all be the same)
+    4) Then complete the operation pi*r^2 and assign it to AC
+    5) Complete the operation l^2 and assign it to AS
+    6) Complete the operation ((sqrt(3))/4)l^2 and assign it to AT
+    7) Find the sum of AS + AT + AC and assign it to the variable A
+3.4.5. What was incorrect or imprecise about your algorithm? 
+    Algorithm worked as intended
